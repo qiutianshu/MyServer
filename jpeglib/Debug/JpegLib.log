@@ -1,0 +1,132 @@
+﻿生成启动时间为 2018/2/16 0:46:35。
+     1>项目“C:\Users\杨杰\Documents\Tencent Files\1270566865\FileRecv\VC黑客源代码\源代码\MyServer\jpeglib\JpegLib.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“.\Debug\JpegLib.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Z7 /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _VC80_UPGRADE=0x0600 /Gm- /EHsc /MTd /GS /Gy- /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug\\" /Fd".\Debug\vc100.pdb" /Gd /TC /analyze- /errorReport:prompt Jcapimin.c Jcapistd.c Jccoefct.c Jccolor.c Jcdctmgr.c Jchuff.c Jcinit.c Jcmainct.c Jcmarker.c Jcmaster.c Jcomapi.c Jcparam.c Jcphuff.c Jcprepct.c Jcsample.c Jctrans.c Jdapimin.c Jdapistd.c Jdatadst.c Jdatasrc.c Jdcoefct.c Jdcolor.c Jddctmgr.c Jdhuff.c Jdinput.c Jdmainct.c Jdmarker.c Jdmaster.c Jdmerge.c Jdphuff.c Jdpostct.c Jdsample.c Jdtrans.c Jerror.c Jfdctflt.c Jfdctfst.c Jfdctint.c Jidctflt.c Jidctfst.c Jidctint.c Jidctred.c Jmemmgr.c Jmemnobs.c Jpegtran.c Jquant1.c Jquant2.c Jutils.c
+         Jcapimin.c
+         Jcapistd.c
+         Jccoefct.c
+         Jccolor.c
+         Jcdctmgr.c
+         Jchuff.c
+         Jcinit.c
+         Jcmainct.c
+         Jcmarker.c
+         Jcmaster.c
+         Jcomapi.c
+         Jcparam.c
+         Jcphuff.c
+         Jcprepct.c
+         Jcsample.c
+         Jctrans.c
+         Jdapimin.c
+         Jdapistd.c
+         Jdatadst.c
+         Jdatasrc.c
+         正在生成代码...
+         正在编译...
+         Jdcoefct.c
+         Jdcolor.c
+         Jddctmgr.c
+         Jdhuff.c
+         Jdinput.c
+         Jdmainct.c
+         Jdmarker.c
+         Jdmaster.c
+         Jdmerge.c
+         Jdphuff.c
+         Jdpostct.c
+         Jdsample.c
+         Jdtrans.c
+         Jerror.c
+     1>Jerror.c(201): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>Jerror.c(207): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+         Jfdctflt.c
+         Jfdctfst.c
+         Jfdctint.c
+         Jidctflt.c
+         Jidctfst.c
+         Jidctint.c
+         正在生成代码...
+         正在编译...
+         Jidctred.c
+         Jmemmgr.c
+     1>Jmemmgr.c(1123): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdlib.h(433) : 参见“getenv”的声明
+     1>Jmemmgr.c(1126): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+         Jmemnobs.c
+         Jpegtran.c
+     1>Jpegtran.c(158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>Jpegtran.c(198): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(325) : 参见“sscanf”的声明
+     1>Jpegtran.c(325): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+     1>Jpegtran.c(336): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : 参见“fopen”的声明
+         Jquant1.c
+         Jquant2.c
+         Jutils.c
+         正在生成代码...
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets(1151,5): warning MSB8012: TargetPath(C:\Users\杨杰\Documents\Tencent Files\1270566865\FileRecv\VC黑客源代码\源代码\MyServer\jpeglib\.\Debug\JpegLib.lib) 与 Library 的 OutputFile 属性值(C:\Users\杨杰\Documents\Tencent Files\1270566865\FileRecv\VC黑客源代码\源代码\MyServer\Debug\JpegLib.lib)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Lib.OutputFile) 中指定的值匹配。
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"..\Debug\JpegLib.lib" /NOLOGO .\Debug\Jcapimin.obj
+         .\Debug\Jcapistd.obj
+         .\Debug\Jccoefct.obj
+         .\Debug\Jccolor.obj
+         .\Debug\Jcdctmgr.obj
+         .\Debug\Jchuff.obj
+         .\Debug\Jcinit.obj
+         .\Debug\Jcmainct.obj
+         .\Debug\Jcmarker.obj
+         .\Debug\Jcmaster.obj
+         .\Debug\Jcomapi.obj
+         .\Debug\Jcparam.obj
+         .\Debug\Jcphuff.obj
+         .\Debug\Jcprepct.obj
+         .\Debug\Jcsample.obj
+         .\Debug\Jctrans.obj
+         .\Debug\Jdapimin.obj
+         .\Debug\Jdapistd.obj
+         .\Debug\Jdatadst.obj
+         .\Debug\Jdatasrc.obj
+         .\Debug\Jdcoefct.obj
+         .\Debug\Jdcolor.obj
+         .\Debug\Jddctmgr.obj
+         .\Debug\Jdhuff.obj
+         .\Debug\Jdinput.obj
+         .\Debug\Jdmainct.obj
+         .\Debug\Jdmarker.obj
+         .\Debug\Jdmaster.obj
+         .\Debug\Jdmerge.obj
+         .\Debug\Jdphuff.obj
+         .\Debug\Jdpostct.obj
+         .\Debug\Jdsample.obj
+         .\Debug\Jdtrans.obj
+         .\Debug\Jerror.obj
+         .\Debug\Jfdctflt.obj
+         .\Debug\Jfdctfst.obj
+         .\Debug\Jfdctint.obj
+         .\Debug\Jidctflt.obj
+         .\Debug\Jidctfst.obj
+         .\Debug\Jidctint.obj
+         .\Debug\Jidctred.obj
+         .\Debug\Jmemmgr.obj
+         .\Debug\Jmemnobs.obj
+         .\Debug\Jpegtran.obj
+         .\Debug\Jquant1.obj
+         .\Debug\Jquant2.obj
+         .\Debug\Jutils.obj
+         JpegLib.vcxproj -> C:\Users\杨杰\Documents\Tencent Files\1270566865\FileRecv\VC黑客源代码\源代码\MyServer\jpeglib\.\Debug\JpegLib.lib
+       FinalizeBuildStatus:
+         正在删除文件“.\Debug\JpegLib.unsuccessfulbuild”。
+         正在对“.\Debug\JpegLib.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\杨杰\Documents\Tencent Files\1270566865\FileRecv\VC黑客源代码\源代码\MyServer\jpeglib\JpegLib.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.99
