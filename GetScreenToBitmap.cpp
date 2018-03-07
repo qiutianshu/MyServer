@@ -51,20 +51,19 @@ DWORD CGetScreenToBitmap::GetImageSize()
 
 BOOL CGetScreenToBitmap::GetScreen(CRect rcArea,int nBits, int nArea)
 {
-	HDC		hScrDC, hMemDC;			// 屏幕和内存设备描述表
-	HBITMAP		hBitmap, hOldBitmap;		// 位图句柄
-	HDC		hDC;				//设备描述表
-	int		iBits;				//当前显示分辨率下每个像素所占字节数
-	WORD		wBitCount;			//位图中每个像素所占字节数
-
+	HDC	hScrDC, hMemDC;		// 屏幕和内存设备描述表
+	HBITMAP	hBitmap, hOldBitmap;		// 位图句柄
+	HDC	hDC;				//设备描述表
+	int	iBits;				//当前显示分辨率下每个像素所占字节数
+	WORD wBitCount;			//位图中每个像素所占字节数
 	//定义调色板大小， 位图中像素字节大小 ，位图文件大小 ， 写入文件字节数
-	DWORD		dwPaletteSize=0, dwBmBitsSize;
-	BITMAP		Bitmap;			//位图属性结构
-	BITMAPINFOHEADER	bi;		//位图信息头结构 
-	LPBITMAPINFOHEADER	lpbi;		//指向位图信息头结构
+	DWORD dwPaletteSize=0, dwBmBitsSize;
+	BITMAP Bitmap;			//位图属性结构
+	BITMAPINFOHEADER bi;		//位图信息头结构 
+	LPBITMAPINFOHEADER lpbi;		//指向位图信息头结构
 
 	//定义文件，分配内存句柄，调色板句柄  
-	HPALETTE		hPal,hOldPal=NULL;
+	HPALETTE hPal,hOldPal=NULL;
     //释放原有资源
 	ResetVariable();
 	// 获得屏幕分辨率

